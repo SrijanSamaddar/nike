@@ -1,0 +1,37 @@
+ <div  className='relative w-[97%] h-full flex justify-center items-center bg-[#F6F6F6]'><img className='w-[25vw]' src={graffiSeven} alt="" />
+        {imageList.map((data) => (
+           <div key={data.id} className='font-[500]  left-[5%] top-[5%] absolute flex flex-col' >
+            <h1 className='text-[1.2vw]' >{data.name}</h1>
+            <h1 className='' >{data.catagory}</h1>
+            <h1 className='' >{data.mrp}</h1>
+           </div>
+        ))}
+        </div>
+        <div className='w-[97%] relative h-full flex justify-center items-center bg-[#F6F6F6]'><img className='w-[25vw]' src={graffisix} alt="" />
+        {imageList.map((data) => (
+           <div key={data.id} className='font-[500]  left-[5%] top-[5%] absolute flex flex-col' >
+            <h1 className='text-[1.2vw]' >{data.name}</h1>
+            <h1 className='' >{data.catagory}</h1>
+            <h1 className='' >{data.mrp}</h1>
+           </div>
+        ))}
+        </div>
+        <div className='w-[97%] relative h-full flex justify-center items-center bg-[#F6F6F6]'><img className='w-[25vw]' src={graffiSeven} alt="" />
+        {imageList.map((data) => (
+           <div key={data.id} className='font-[500]  left-[5%] top-[5%] absolute flex flex-col' >
+            <h1 className='text-[1.2vw]' >{data.name}</h1>
+            <h1 className='' >{data.catagory}</h1>
+            <h1 className='' >{data.mrp}</h1>
+           </div>
+        ))}
+        </div>
+        <div className='w-[97%] relative h-full flex justify-center items-center bg-[#F6F6F6]'><img className='w-[25vw]' src={graffisix} alt="" />
+        
+        {imageList.map((data) => (
+           <div key={data.id} className='font-[500]  left-[5%] top-[5%] absolute flex flex-col' >
+            <h1 className='text-[1.2vw]' >{data.name}</h1>
+            <h1 className='' >{data.catagory}</h1>
+            <h1 className='' >{data.mrp}</h1>
+           </div>
+        ))}
+        </div>

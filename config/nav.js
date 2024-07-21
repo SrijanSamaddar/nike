@@ -1,0 +1,1 @@
+export const navOpt = ["New & Featured","Men","Women","Kids","Sale"];
